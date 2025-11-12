@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Web Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>Signup page</h1>
+    <form method="post">
+      <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+          <td>
+            <label for="user_name">Name</label>
+          </td>
+          <td>
+            <input type="text" name="user_name" id="user_name" placeholder="Full Name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="user_email">Email Id</label>
+          </td>
+          <td>
+            <input type="email" name="user_email" id="user_email" placeholder="user-name@domain.com" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="user_mobile">Mobile</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="user_mobile"
+              id="user_mobile"
+              maxlength="10"
+              value=""
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="">Gender</label>
+          </td>
+          <td>
+            <input type="radio" name="gender" id="male" value="male" />male
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+              checked
+            />Female
+          </td>
+        </tr>
+        <tr>
+            <td><label for="user_nationality">Nationality</label></td>
+            <td>
+                <select name="user_nationality" id="user_nationality">
+                    <option value="">--Select--</option>
+                    <option value="IN">India</option>
+                    <option value="US">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="AUS">Aus</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="user_addr">Address</label></td>
+            <td>
+                <textarea name="user_addr" id="user_addr" rows="6" cols="30">
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="user_pwd">Password</label></td>
+            <td>
+                <input type="password" name="user_pwd" id="user_pwd" />
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="hobby">Hobby</label></td>
+            <td>
+                <input type="checkbox" name="hobby" id="gardening" value="gardening" checked>Gardening
+                <input type="checkbox" name="hobby" id="cooking" value="cooking">Cooking
+                <input type="checkbox" name="hobby" id="cricket" value="cricket">Cricket
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="submit_btn" id="submit_btn" value="Submit" />
+            </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
