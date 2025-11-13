@@ -1,0 +1,47 @@
+body {
+  background-color: #d0edcc;
+  /* background-image: url("./images/image002.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed; */
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#div1 {
+  background-color: #f7b4b4;
+  overflow-y: scroll;
+}
+#div2 {
+  background-color: #f7f1a9;
+  opacity: 0.3;
+
+}
+#div3 {
+  background-color: #c9e5ef;
+}
+#parent_div{
+    width:1250px;
+    height:350px;
+    border:1px solid #000;
+}
+.box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+  margin: 12px;
+  padding: 12px 20px;
+}
+
+.paragraph{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    width: 1250px;
+    border: 2px dotted #000;
+    margin: 20px;
+    padding: 20px;
+    color: blue;
+    letter-spacing: 2px;
+    line-height: 30px;
+    word-spacing: 5px;
+}

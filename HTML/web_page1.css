@@ -1,0 +1,58 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  border: 0px solid #000;
+}
+.header {
+  width: 1496px;
+  min-height: 150px;
+  /* border: 0px solid #000; */
+  border-bottom: 4px solid #000;
+}
+.logo {
+  width: 260px;
+  height: 150px;
+  border: 0px solid #000;
+  float:left;
+}
+
+.logo img{
+    margin:20px 0px 0px 0px;
+}
+.header-links{
+    float: right;
+    border: 0px solid #000;
+    height: 26px;
+    margin-top: 121px;
+}
+.content_area{
+    min-height: 500px;
+    height:auto;
+    width: 1496px;
+    border:0px solid #000;
+}
+.ca_para{
+   width: 1150px;
+   float: left;
+   padding: 10px;
+   text-align: justify;
+}
+.ca_ads{
+    /* width:20%; */
+    float: left;
+    margin:17px;
+}
+.footer {
+    border: 0px solid #000;
+    height:40px;
+}
+.footer-content{
+    /* margin: 0px auto; */
+    text-align: left;
+    margin: 0 248 0 0;
+
+}
