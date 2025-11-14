@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My First JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>JavaScript</h1>
+        <div id="div1">
+            
+        </div>
+        <button onclick="generateContent()">Click Me!</button>
+        <script>
+            function generateContent(){
+                document.getElementById("div1").innerHTML = "<h2>Hello World!</h2>"
+                window.alert("Hello JS")
+            }
+        </script>
+    </body>
+</html>
