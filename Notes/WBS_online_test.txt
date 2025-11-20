@@ -1,0 +1,62 @@
+Title : Online Test
+
+
+Screen 1: Landing page [Brand Image + Rules/Protocols + Button to enter into the test]
+
+Screen 2: A div in which one question will display at a time. There will be a next button when user click on it then
+next question should appear. There should be a back button to go to previous ques.
+
+Screen 3: Once user will submit the test in a new page result of test should display & in bottom all questions with correct answer should display.
+
+------------------------------------------------------------------------------------------------------------
+
+Step 1: We should have a question bank (questions.json) in which say 50 questions will be there.
+
+Step 2: We need to create a function which will read questions.json, and return 15 random questions
+[
+	{
+		id:1,
+		ques: "What is JS"
+		options: ["programming Lang","Graphics Tool", "ML Algo", "DevOps Tool"]
+		answer: 0,
+		topic: "JS"
+	},
+	{},
+	{}
+]
+ 
+Step 3: Let's create the Screen1 using HTML and CSS
+
+Step 4: We can set a index variable as 0 & fetch the question/record which exist in current index & display it in UI
+
+Step 5: When user will click on next button then increase index by 1 and display the question in UI which is in current 
+index, vice versa in case user click on back button.
+
+let userResponse = [
+	{
+	ques_no:1,
+	candidate_ans: 0,
+	isCorrect: true
+	},
+	{
+	ques_no:2,
+	candidate_ans: 3,
+	isCorrect: false
+	}
+	...
+]
+
+
+Step 6: When user will submit the test, result page will open in which obtained score will display.
+
+Step 7: At the bottom of result page, we need to display all questions with right answers.
+
+
+
+
+
+
+
+
+
+
