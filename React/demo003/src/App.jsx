@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import UseReff from "./components/useReff";
 import PassFunc from "./components/PassFunc";
+import UserData from "./components/UserData";
 
 function App() {
   let [counter, setCounter] = useState(0);
@@ -34,6 +35,8 @@ function App() {
       <UseReff />
       <hr />
       <PassFunc />
+      <hr />
+      <UserData />
     </>
   );
 }
