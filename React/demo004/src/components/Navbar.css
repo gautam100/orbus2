@@ -1,0 +1,21 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.link{
+    size: 12px;
+}
+.ul-style{
+    display: flex;
+    margin:auto;
+    width:210px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E8E8E8;
+    padding:10px;
+}
